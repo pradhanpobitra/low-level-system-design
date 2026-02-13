@@ -1,0 +1,35 @@
+Problem:
+
+    Consider there is a parent class - Vehicle
+
+    abstract class Vehicle {
+        Vehicle() {
+
+        }
+
+        void getGoing() {
+            drive();
+        }
+
+        abstract void drive();
+    }
+
+    and multiple implementations of this abstract parent class namely -
+    1. GoodsVehicle
+    2. OffRoadVehicle
+    3. SportsVehicle
+    4. SedanVehicle
+    ...
+
+
+    Here, GoodsVehicle and SedanVehicle would have the same implementation of the drive() method,
+    and OffRoadVehicle and SportsVehicle would have similar implementations.
+
+    This would lead to duplicate code.
+
+
+Solution:
+
+    Since the implementations of the drive() method are common across classes,
+    the logic can be extracted out and put into classes a.k.a strategy classes,
+    and hence can be used with the Vehicle class implementations / child classes.
