@@ -1,9 +1,11 @@
-package decorator.myThought.basepizzas;
+package decorator.design.pattern.theory.basepizza;
+
+import decorator.design.pattern.theory.Pizza;
 
 public class FarmhousePizza implements Pizza {
 
     @Override
-    public int getCost() {
+    public int getPrice() {
         return 350;
     }
 

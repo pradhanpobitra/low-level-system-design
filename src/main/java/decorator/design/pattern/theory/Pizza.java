@@ -1,4 +1,4 @@
-package decorator.theory;
+package decorator.design.pattern.theory;
 
 public interface Pizza {
 

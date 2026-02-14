@@ -1,4 +1,4 @@
-package decorator.myThought.toppings;
+package decorator.design.pattern.myThought.toppings;
 
 public interface PizzaTopping {
 

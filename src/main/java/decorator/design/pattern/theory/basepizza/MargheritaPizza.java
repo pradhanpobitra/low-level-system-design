@@ -1,6 +1,6 @@
-package decorator.theory.basepizza;
+package decorator.design.pattern.theory.basepizza;
 
-import decorator.theory.Pizza;
+import decorator.design.pattern.theory.Pizza;
 
 public class MargheritaPizza implements Pizza {
 

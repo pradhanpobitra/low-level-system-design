@@ -1,4 +1,4 @@
-package decorator.myThought.basepizzas;
+package decorator.design.pattern.myThought.basepizzas;
 
 public interface Pizza {
 

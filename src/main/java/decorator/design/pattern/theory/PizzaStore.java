@@ -1,8 +1,8 @@
-package decorator.theory;
+package decorator.design.pattern.theory;
 
-import decorator.theory.basepizza.FarmhousePizza;
-import decorator.theory.pizzadecorator.CheeseDecorator;
-import decorator.theory.pizzadecorator.MushroomDecorator;
+import decorator.design.pattern.theory.basepizza.FarmhousePizza;
+import decorator.design.pattern.theory.pizzadecorator.CheeseDecorator;
+import decorator.design.pattern.theory.pizzadecorator.MushroomDecorator;
 
 public class PizzaStore {
 

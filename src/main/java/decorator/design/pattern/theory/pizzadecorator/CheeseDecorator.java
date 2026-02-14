@@ -1,6 +1,6 @@
-package decorator.theory.pizzadecorator;
+package decorator.design.pattern.theory.pizzadecorator;
 
-import decorator.theory.Pizza;
+import decorator.design.pattern.theory.Pizza;
 
 public class CheeseDecorator implements Pizza {
 

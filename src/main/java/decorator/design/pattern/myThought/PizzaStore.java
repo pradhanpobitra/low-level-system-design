@@ -1,10 +1,10 @@
-package decorator.myThought;
+package decorator.design.pattern.myThought;
 
-import decorator.myThought.basepizzas.FarmhousePizza;
-import decorator.myThought.basepizzas.Pizza;
-import decorator.myThought.toppings.ExtraCheeseTopping;
-import decorator.myThought.toppings.MushroomTopping;
-import decorator.myThought.toppings.PizzaTopping;
+import decorator.design.pattern.myThought.basepizzas.FarmhousePizza;
+import decorator.design.pattern.myThought.basepizzas.Pizza;
+import decorator.design.pattern.myThought.toppings.ExtraCheeseTopping;
+import decorator.design.pattern.myThought.toppings.MushroomTopping;
+import decorator.design.pattern.myThought.toppings.PizzaTopping;
 
 import java.util.Collections;
 import java.util.List;

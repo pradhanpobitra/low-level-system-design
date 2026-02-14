@@ -1,7 +1,7 @@
-package decorator.myThought;
+package decorator.design.pattern.myThought;
 
-import decorator.myThought.basepizzas.Pizza;
-import decorator.myThought.toppings.PizzaTopping;
+import decorator.design.pattern.myThought.basepizzas.Pizza;
+import decorator.design.pattern.myThought.toppings.PizzaTopping;
 
 import java.util.List;
 
