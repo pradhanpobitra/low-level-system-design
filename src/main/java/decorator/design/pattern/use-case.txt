@@ -1,0 +1,4 @@
+Use this design pattern when you need the base class features and want extra features,
+but you do not want to modify the base class.
+
+Note: This design pattern comprises both is-A (inheritance) and has-A (composition) relationships.

@@ -1,0 +1,3 @@
+Use this design pattern when you need to create objects based on certain criteria (those objects
+can be grouped into a single group or interface altogether),
+and you want a single source of truth avoiding duplicate object creation code.
