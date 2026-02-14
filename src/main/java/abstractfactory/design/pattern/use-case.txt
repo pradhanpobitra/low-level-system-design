@@ -1,0 +1,3 @@
+Use this design pattern when you have different groups of factories to be maintained by another factory.
+
+Basically a factory of factories.
