@@ -1,0 +1,21 @@
+
+
+Classes required --
+
+1. enum PieceType (X / O / etc)
+
+2. Piece
+    -- has-a PieceType
+
+3. Board
+    -- has-a Piece(s) matrix
+
+4. Player
+    -- has-a PieceType assigned
+
+5. Game
+    -- has-a Board
+    -- has-a List<Player>
+
+6. PieceFactory
+    -- has-a Piece
