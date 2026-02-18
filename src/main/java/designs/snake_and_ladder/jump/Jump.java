@@ -1,4 +1,4 @@
-package designs.snake_and_ladder;
+package designs.snake_and_ladder.jump;
 
 public abstract class Jump {
     int start;

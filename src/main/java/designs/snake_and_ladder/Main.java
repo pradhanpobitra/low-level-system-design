@@ -1,5 +1,11 @@
 package designs.snake_and_ladder;
 
+import designs.snake_and_ladder.game.Game;
+import designs.snake_and_ladder.game.strategy.DefaultGameStrategy;
+import designs.snake_and_ladder.game.strategy.DefaultWinningStrategy;
+import designs.snake_and_ladder.jump.Ladder;
+import designs.snake_and_ladder.jump.Snake;
+
 import java.util.List;
 
 public class Main {
@@ -21,7 +27,10 @@ public class Main {
         board.configureJump(new Snake(45, 20));
         board.configureJump(new Snake(15, 3));
 
-        Game game = new Game(board, List.of(player1, player2, player3, player4, player5), List.of(dice1, dice2));
+
+        Game game = new Game(board, List.of(player1, player2, player3, player4, player5),
+                List.of(dice1, dice2),
+                new DefaultGameStrategy(new DefaultWinningStrategy()));
         game.startGame();
     }
 }

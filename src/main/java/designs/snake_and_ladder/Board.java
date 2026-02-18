@@ -1,5 +1,7 @@
 package designs.snake_and_ladder;
 
+import designs.snake_and_ladder.jump.Jump;
+
 public class Board {
     private final Cell[] cells;
 

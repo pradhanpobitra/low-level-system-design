@@ -1,5 +1,7 @@
 package designs.snake_and_ladder;
 
+import designs.snake_and_ladder.jump.Jump;
+
 public class Cell {
     private Jump jump;
 

@@ -1,4 +1,4 @@
-package designs.snake_and_ladder;
+package designs.snake_and_ladder.jump;
 
 public class Ladder extends Jump {
     public Ladder(int start, int end) {
