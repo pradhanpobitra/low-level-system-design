@@ -1,4 +1,4 @@
-package designs.atm.denominations;
+package patterns.chain.of.responsibility.denominations;
 
 public enum DenominationType {
     TWO_THOUSAND(2000),

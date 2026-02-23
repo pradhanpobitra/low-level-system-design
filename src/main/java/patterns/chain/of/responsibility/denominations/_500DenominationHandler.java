@@ -1,4 +1,4 @@
-package designs.atm.denominations;
+package patterns.chain.of.responsibility.denominations;
 
 public class _500DenominationHandler extends DenominationHandler {
 

@@ -1,4 +1,4 @@
-package designs.atm;
+package patterns.chain.of.responsibility;
 
 public class Main {
     public static void main(String[] args) {

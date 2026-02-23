@@ -1,6 +1,7 @@
-package designs.atm;
+package patterns.chain.of.responsibility;
 
-import designs.atm.denominations.*;
+
+import patterns.chain.of.responsibility.denominations.*;
 
 import java.util.HashMap;
 import java.util.Map;
