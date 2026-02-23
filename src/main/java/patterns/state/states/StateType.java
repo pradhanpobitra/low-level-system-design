@@ -1,4 +1,4 @@
-package designs.state.design.pattern.vendingmachine.states;
+package patterns.state.states;
 
 public enum StateType {
     IDLE,

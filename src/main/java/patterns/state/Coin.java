@@ -1,4 +1,4 @@
-package designs.state.design.pattern.vendingmachine;
+package patterns.state;
 
 public enum Coin {
     ONE_RUPEE(1),

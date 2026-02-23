@@ -1,8 +1,8 @@
-package designs.state.design.pattern.vendingmachine.states;
+package patterns.state.states;
 
-import designs.state.design.pattern.vendingmachine.Coin;
-import designs.state.design.pattern.vendingmachine.Inventory;
-import designs.state.design.pattern.vendingmachine.VendingMachine;
+import patterns.state.Coin;
+import patterns.state.Inventory;
+import patterns.state.VendingMachine;
 
 public class Idle implements State {
     public void acceptCoins(VendingMachine vendingMachine, Coin coin) {

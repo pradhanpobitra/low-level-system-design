@@ -1,8 +1,8 @@
-package designs.state.design.pattern.vendingmachine;
+package patterns.state;
 
-import designs.state.design.pattern.vendingmachine.product.Product;
-import designs.state.design.pattern.vendingmachine.states.StateType;
-import designs.state.design.pattern.vendingmachine.states.factory.StateFactory;
+import patterns.state.product.Product;
+import patterns.state.states.StateType;
+import patterns.state.states.factory.StateFactory;
 
 import java.util.List;
 

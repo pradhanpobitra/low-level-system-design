@@ -1,6 +1,6 @@
-package designs.state.design.pattern.vendingmachine.states.factory;
+package patterns.state.states.factory;
 
-import designs.state.design.pattern.vendingmachine.states.*;
+import patterns.state.states.*;
 
 public class StateFactory {
 

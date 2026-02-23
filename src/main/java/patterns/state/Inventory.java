@@ -1,7 +1,7 @@
-package designs.state.design.pattern.vendingmachine;
+package patterns.state;
 
-import designs.state.design.pattern.vendingmachine.product.Product;
-import designs.state.design.pattern.vendingmachine.product.ProductType;
+import patterns.state.product.Product;
+import patterns.state.product.ProductType;
 
 import java.util.ArrayList;
 import java.util.List;

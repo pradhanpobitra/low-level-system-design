@@ -1,4 +1,4 @@
-package designs.state.design.pattern.vendingmachine.product;
+package patterns.state.product;
 
 public class Product {
     private final ProductType productType;
